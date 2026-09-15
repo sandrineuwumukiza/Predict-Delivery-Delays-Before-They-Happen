@@ -1,16 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Brief: E-commerce Product Delivery Prediction
 
-Currently, two official plugins are available:
+Objective:
+The goal of this project is to predict whether a product from an e-commerce company will reach on time based on various factors. This project also aims to analyze factors affecting delivery and study customer behavior.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Project Overview:
+In this project, you will analyze a dataset containing information about product deliveries for an international e-commerce company. Your main tasks are to:
 
-## React Compiler
+1.	Predict On-time Delivery: Build a predictive model to estimate whether a product will reach on time.
+2.	Factor Analysis: Identify and analyze the factors that most significantly impact delivery times and customer behavior.
+3.	Recommendation : Provide suggestions and recommendations based on your analysis and findings for the firm.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Dataset Description:
+The E-commerce Product Delivery Prediction dataset includes the following features:
 
-## Expanding the ESLint configuration
+●	ID: ID number of customers.
+●	Warehouse_block: The warehouse block where the product is stored (A, B, C, D, E).
+●	Mode_of_Shipment: The mode of shipment (Ship, Flight, Road).
+●	Customer_care_calls: The number of calls made for shipment enquiries.
+●	Customer_rating: Customer rating (1 = worst, 5 = best).
+●	Cost_of_the_Product: Cost of the product in US dollars.
+●	Prior_purchases: The number of prior purchases by the customer.
+●	Product_importance: Importance of the product (low, medium, high).
+●	Gender: Gender of the customer (Male, Female).
+●	Discount_offered: Discount offered on the product.
+●	Weight_in_gms: Weight of the product in grams.
+●	Reached.on.Time_Y.N: Target variable (1 = not reached on time, 0 = reached on time).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Note 
+You are encouraged and allowed to outsource additional relevant data from external sources into your analysis to enhance its depth and comprehensiveness
+
